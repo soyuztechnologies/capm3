@@ -1,0 +1,12 @@
+{
+    "welcomeFile": "managestudents/webapp/",
+    "authenticationMethod": "none",
+    "routes": [{
+        "source": "^/managestudents/webapp/(.*)$",
+        "target": "$1",
+        "localDir": "managestudents/webapp/"
+    }, {
+        "source": "^(.*)$",
+        "destination": "srv-api"
+    }]
+}
